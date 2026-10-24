@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "updated": "2026-10-24",
+  "services": [
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "domains": ["netflix.com"],
+      "aliases": ["netflix"],
+      "category": "video",
+      "cancelUrl": "https://www.netflix.com/cancelplan",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "domains": ["spotify.com"],
+      "aliases": ["spotify", "spotify premium"],
+      "category": "music",
+      "cancelUrl": "https://www.spotify.com/account/subscription/",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "shahid",
+      "name": "Shahid",
+      "domains": ["shahid.net", "mbc.net"],
+      "aliases": ["shahid", "shahid vip", "شاهد"],
+      "category": "video",
+      "cancelUrl": "https://shahid.mbc.net/en/hub/manage-subscriptions",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube Premium",
+      "domains": ["youtube.com"],
+      "aliases": ["youtube premium", "youtube music", "youtube"],
+      "category": "video",
+      "cancelUrl": "https://www.youtube.com/paid_memberships",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "domains": ["openai.com", "chatgpt.com"],
+      "aliases": ["chatgpt", "chatgpt plus", "chatgpt pro", "openai"],
+      "category": "ai",
+      "cancelUrl": "https://help.openai.com/en/articles/7232927",
+      "note": {
+        "ar": "الإلغاء من ChatGPT: صورة الحساب ← الإعدادات ← الاشتراك ← إلغاء الخطة.",
+        "fr": "Dans ChatGPT : photo du compte → Paramètres → Abonnement → Annuler l'abonnement.",
+        "en": "In ChatGPT: your profile picture → Settings → Billing → Cancel plan."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "domains": ["canva.com"],
+      "aliases": ["canva", "canva pro"],
+      "category": "design",
+      "cancelUrl": "https://www.canva.com/help/cancel-canva-plan/",
+      "note": {
+        "ar": "الإلغاء من Canva: الإعدادات ← الفوترة والخطط ← إلغاء.",
+        "fr": "Dans Canva : Paramètres → Facturation et forfaits → Annuler.",
+        "en": "In Canva: Settings → Billing & plans → Cancel."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe",
+      "domains": ["adobe.com"],
+      "aliases": ["adobe", "adobe creative cloud", "creative cloud"],
+      "category": "design",
+      "cancelUrl": "https://account.adobe.com/plans",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "domains": [],
+      "aliases": ["amazon prime", "prime video", "amazon"],
+      "category": "video",
+      "cancelUrl": "https://www.amazon.com/mc",
+      "note": {
+        "ar": "هاد الرابط ديال amazon.com. إلا كان اشتراكك فـAmazon أخرى (amazon.fr مثلاً)، دخل لـ\"عضوية Prime\" فنفس الموقع.",
+        "fr": "Ce lien est celui d'amazon.com. Si vous êtes abonné sur un autre site Amazon (amazon.fr par exemple), ouvrez « Mon abonnement Prime » sur ce site.",
+        "en": "This link is for amazon.com. If you subscribed on another Amazon site (amazon.fr, for example), open \"Prime membership\" on that site."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "domains": ["apple.com"],
+      "aliases": ["apple", "apple music", "apple tv", "apple tv+", "apple one", "apple arcade", "app store"],
+      "category": "other",
+      "cancelUrl": "https://apps.apple.com/account/subscriptions",
+      "note": {
+        "ar": "إلا خلصتي عبر Apple، الإلغاء كيكون حتى من إعدادات iPhone: الإعدادات ← سميتك ← الاشتراكات.",
+        "fr": "Si vous payez via Apple, vous pouvez aussi résilier dans les Réglages de l'iPhone : Réglages → votre nom → Abonnements.",
+        "en": "If you pay through Apple, you can also cancel in iPhone Settings: Settings → your name → Subscriptions."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "google-one",
+      "name": "Google One",
+      "domains": [],
+      "aliases": ["google one"],
+      "category": "storage",
+      "cancelUrl": "https://one.google.com/settings",
+      "note": {
+        "ar": "فالصفحة: \"إلغاء العضوية\". إلا خلصتي من Google Play ولا App Store، الإلغاء كيكون من تما.",
+        "fr": "Sur la page : « Résilier l'abonnement ». Si vous payez via Google Play ou l'App Store, résiliez-y.",
+        "en": "On the page: \"Cancel membership\". If you pay through Google Play or the App Store, cancel there."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "domains": ["microsoft.com"],
+      "aliases": ["microsoft 365", "office 365", "microsoft"],
+      "category": "other",
+      "cancelUrl": "https://account.microsoft.com/services",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "domains": ["capcut.com"],
+      "aliases": ["capcut", "capcut pro"],
+      "category": "design",
+      "cancelUrl": "https://www.capcut.com/help/cancel-subscription",
+      "note": {
+        "ar": "إلا شريتي من التطبيق فالهاتف، الإلغاء كيكون من App Store ولا Google Play. ألغي 24 ساعة على الأقل قبل التجديد.",
+        "fr": "Si vous avez payé dans l'application mobile, résiliez dans l'App Store ou Google Play, au moins 24 heures avant le renouvellement.",
+        "en": "If you paid in the mobile app, cancel in the App Store or Google Play, at least 24 hours before renewal."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "domains": ["shopify.com", "myshopify.com"],
+      "aliases": ["shopify"],
+      "category": "ecommerce",
+      "cancelUrl": "https://admin.shopify.com/settings/plan",
+      "note": {
+        "ar": "باش توقف الخلاص، خاصك توقف المتجر ولا تسدو من صفحة الخطة. التطبيقات المدفوعة ديال المتجر كتتحيد من \"التطبيقات\".",
+        "fr": "Pour arrêter la facturation, mettez la boutique en pause ou fermez-la depuis la page du forfait. Les applications payantes se désinstallent dans « Applications ».",
+        "en": "To stop billing, pause or close the store from the plan page. Paid store apps are removed under \"Apps\"."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "disney-plus",
+      "name": "Disney+",
+      "domains": ["disneyplus.com"],
+      "aliases": ["disney+", "disney plus", "disney"],
+      "category": "video",
+      "cancelUrl": "https://www.disneyplus.com/account/subscription",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "osn-plus",
+      "name": "OSN+",
+      "domains": ["osn.com", "osnplus.com"],
+      "aliases": ["osn+", "osn plus", "osn"],
+      "category": "video",
+      "cancelUrl": "https://osnplus.com/manage-subscriptions",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "anghami",
+      "name": "Anghami",
+      "domains": ["anghami.com"],
+      "aliases": ["anghami", "anghami plus", "أنغامي"],
+      "category": "music",
+      "cancelUrl": "https://www.anghami.com/manage-account",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer",
+      "domains": ["deezer.com"],
+      "aliases": ["deezer", "deezer premium"],
+      "category": "music",
+      "cancelUrl": "https://www.deezer.com/account/subscription",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "domains": ["anthropic.com", "claude.ai", "claude.com"],
+      "aliases": ["claude", "claude pro", "claude max", "anthropic"],
+      "category": "ai",
+      "cancelUrl": "https://claude.ai/settings/billing",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "google-workspace",
+      "name": "Google Workspace",
+      "domains": [],
+      "aliases": ["google workspace", "g suite", "gsuite"],
+      "category": "other",
+      "cancelUrl": "https://admin.google.com/ac/billing/subscriptions",
+      "note": {
+        "ar": "⚠️ ملي كتلغي Workspace، الإيميلات والملفات ديال الحسابات كيتمسحو. صدّر داكشي اللي محتاج قبل.",
+        "fr": "⚠️ En résiliant Workspace, les e-mails et fichiers des comptes sont supprimés. Exportez d'abord ce dont vous avez besoin.",
+        "en": "⚠️ Cancelling Workspace deletes the accounts' emails and files. Export what you need first."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "namecheap",
+      "name": "Namecheap",
+      "domains": ["namecheap.com"],
+      "aliases": ["namecheap"],
+      "category": "ecommerce",
+      "cancelUrl": "https://ap.www.namecheap.com/domains/list/",
+      "note": {
+        "ar": "باش ما يتجددش الدومين، طفي \"التجديد التلقائي\" (Auto-Renew) حدا كل دومين فاللائحة.",
+        "fr": "Pour ne pas renouveler un domaine, désactivez « Auto-Renew » à côté de chaque domaine de la liste.",
+        "en": "To stop a domain renewing, turn off \"Auto-Renew\" next to each domain in the list."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "linkedin-premium",
+      "name": "LinkedIn Premium",
+      "domains": ["linkedin.com"],
+      "aliases": ["linkedin premium", "linkedin"],
+      "category": "other",
+      "cancelUrl": "https://www.linkedin.com/premium/manage/",
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "domains": ["duolingo.com"],
+      "aliases": ["duolingo", "duolingo super", "duolingo max"],
+      "category": "other",
+      "cancelUrl": "https://www.duolingo.com/settings/super",
+      "note": {
+        "ar": "إلا شريتي من التطبيق فالهاتف، الإلغاء كيكون من App Store ولا Google Play.",
+        "fr": "Si vous avez payé dans l'application mobile, résiliez dans l'App Store ou Google Play.",
+        "en": "If you paid in the mobile app, cancel in the App Store or Google Play."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "icloud",
+      "name": "iCloud+",
+      "domains": ["icloud.com"],
+      "aliases": ["icloud", "icloud+"],
+      "category": "storage",
+      "cancelUrl": "https://support.apple.com/en-us/108318",
+      "note": {
+        "ar": "iCloud+ كيتلغى من الجهاز: فـiPhone، الإعدادات ← سميتك ← الاشتراكات ← iCloud+، ولا اختار خطة 5 Go المجانية.",
+        "fr": "iCloud+ se résilie depuis l'appareil : sur iPhone, Réglages → votre nom → Abonnements → iCloud+, ou choisissez l'offre gratuite de 5 Go.",
+        "en": "iCloud+ is cancelled from the device: on iPhone, Settings → your name → Subscriptions → iCloud+, or pick the free 5 GB plan."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "pictory",
+      "name": "Pictory",
+      "domains": ["pictory.ai"],
+      "aliases": ["pictory", "pictory ai"],
+      "category": "ai",
+      "cancelUrl": "https://kb.pictory.ai/en/articles/8468806-how-to-cancel-the-subscription",
+      "note": {
+        "ar": "الإلغاء من app.pictory.ai: سميتك ← My Account ← Billing ← Cancel Subscription.",
+        "fr": "Sur app.pictory.ai : votre nom → My Account → Billing → Cancel Subscription.",
+        "en": "On app.pictory.ai: your name → My Account → Billing → Cancel Subscription."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "17track",
+      "name": "17TRACK",
+      "domains": ["17track.net"],
+      "aliases": ["17track", "17 track"],
+      "category": "ecommerce",
+      "cancelUrl": "https://help.17track.net/hc/en-us/articles/360044656711",
+      "note": {
+        "ar": "إلا كان 17TRACK تطبيق فمتجر Shopify، الإلغاء كيكون بحذفو من \"التطبيقات\" فـShopify.",
+        "fr": "Si 17TRACK est une application de votre boutique Shopify, résiliez en la désinstallant dans « Applications » de Shopify.",
+        "en": "If 17TRACK is an app in your Shopify store, cancel by uninstalling it under \"Apps\" in Shopify."
+      },
+      "verified": "2026-10-24"
+    },
+    {
+      "id": "bythen",
+      "name": "ByThen AI",
+      "domains": ["bythen.ai"],
+      "aliases": ["bythen", "bythen ai", "by then"],
+      "category": "ai",
+      "cancelUrl": "https://help.bythen.ai/en/articles/15243853-how-can-i-cancel-my-subscription",
+      "verified": "2026-10-24"
+    }
+  ]
+}
